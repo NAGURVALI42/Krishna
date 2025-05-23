@@ -1,6 +1,6 @@
 package com.example.krishna
 
-data class TeacherDocumentModel(
+data class StudentWorkModel(
     val subject: String,
     val fileName: String
 )

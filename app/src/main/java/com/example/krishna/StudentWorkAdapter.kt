@@ -7,20 +7,18 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class TeacherDocumentAdapter(
-    private val documents: MutableList<TeacherDocumentModel>,
-    private val onDeleteClick: (Int) -> Unit
-) : RecyclerView.Adapter<TeacherDocumentAdapter.ViewHolder>() {
+class StudentWorkAdapter(
+    private val documents: MutableList<StudentWorkModel>,
+) : RecyclerView.Adapter<StudentWorkAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val subjectText: TextView = view.findViewById(R.id.subjectText)
         val fileNameText: TextView = view.findViewById(R.id.fileNameText)
-        val deleteBtn: ImageButton = view.findViewById(R.id.deleteBtn)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_teacher_document, parent, false)
+            .inflate(R.layout.item_student_work, parent, false)
         return ViewHolder(view)
     }
 
@@ -30,8 +28,5 @@ class TeacherDocumentAdapter(
         val document = documents[position]
         holder.subjectText.text = document.subject
         holder.fileNameText.text = document.fileName
-        holder.deleteBtn.setOnClickListener {
-            onDeleteClick(position)
-        }
     }
 }

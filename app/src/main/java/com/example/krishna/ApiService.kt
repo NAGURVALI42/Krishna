@@ -72,5 +72,7 @@ interface ApiService {
     @GET("school/api/get_achievements.php")
     fun getAchievements(@Query("achiever_id") achieverId: Int): Call<AchievementResponse>
 
+    @GET("school/api/get_work.php")
+    fun getWork(): Call<WorkListResponse>
 
 }
