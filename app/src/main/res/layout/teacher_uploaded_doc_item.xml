@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_card"
+    android:padding="15dp"
+    android:layout_marginVertical="5dp">
+
+    <!-- Document Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/docTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XI- Subject"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/docName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Document Name.Docs"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <!-- Document Icon -->
+    <ImageView
+        android:id="@+id/docIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/book_icon"/>
+</LinearLayout>

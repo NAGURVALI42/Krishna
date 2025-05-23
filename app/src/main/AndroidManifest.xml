@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Krishna"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".TeacherAddWorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherEventPost"
+            android:exported="false" />
+        <activity
+            android:name=".PostNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentAchievement"
+            android:exported="false" />
+        <activity
+            android:name=".StudentNotices"
+            android:exported="false" />
+        <activity
+            android:name=".StudentTimeTable"
+            android:exported="false" />
+        <activity
+            android:name=".StudentWork"
+            android:exported="true" />
+        <activity
+            android:name=".StudentEvent"
+            android:exported="true" />
+        <activity
+            android:name=".PostScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherRegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherNoticesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherEventsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherworkActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherTimeTableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherAchievementsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatBotActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PostEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddWorkActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

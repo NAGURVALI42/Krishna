@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set background color of the card -->
+    <solid android:color="#F5A9BC"/>
+
+    <!-- Add rounded corners -->
+    <corners android:radius="16dp"/>
+
+    <!-- Add padding to prevent text/images from touching edges -->
+    <padding
+        android:left="10dp"
+        android:right="10dp"
+        android:top="5dp"
+        android:bottom="5dp"/>
+
+    <!-- Optional: Add a border (stroke) -->
+    <stroke android:width="2dp" android:color="#D68DB0"/>
+</shape>

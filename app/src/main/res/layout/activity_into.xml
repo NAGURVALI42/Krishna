@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd_vv"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".IntroActivity">
+
+  <!-- Status Bar Padding -->
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="24dp"
+      android:background="@android:color/transparent"/>
+
+  <!-- Illustration -->
+
+  <!-- App Logo -->
+
+  <ImageView
+      android:id="@+id/intro_image"
+      android:layout_width="293dp"
+      android:layout_height="311dp"
+      android:layout_gravity="center"
+      android:scaleType="fitCenter"
+      android:src="@drawable/tro" />
+
+  <ImageView
+      android:id="@+id/app_logo"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/intro"
+      android:layout_marginTop="20dp"/>
+
+  <!-- App Title -->
+  <TextView
+      android:id="@+id/app_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="School-N"
+      android:textColor="@android:color/white"
+      android:textSize="48sp"
+      android:textStyle="bold" />
+
+  <!-- App Subtitle -->
+  <TextView
+      android:id="@+id/app_subtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:paddingHorizontal="24dp"
+      android:text="The best School platform for Schools\nwho cares about their student’s success"
+      android:textColor="@android:color/white"
+      android:textSize="20sp" />
+
+  <!-- Get Started Button -->
+  <Button
+      android:id="@+id/btn_get_started"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="20dp"
+      android:backgroundTint="@android:color/white"
+      android:text="Get Started"
+      android:textColor="#0312c9"
+      android:textSize="24sp"
+      android:textStyle="bold" />
+</LinearLayout>
