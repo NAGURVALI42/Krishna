@@ -13,36 +13,47 @@
             android:id="@+id/etClassName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
             android:hint="Class Name" />
 
         <EditText
             android:id="@+id/etSubject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
             android:hint="Subject Name" />
 
         <EditText
             android:id="@+id/etDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
             android:hint="Date (YYYY-MM-DD)" />
 
         <EditText
             android:id="@+id/etStartTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
             android:hint="Start Time (HH:MM:SS)" />
 
         <EditText
             android:id="@+id/etEndTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
             android:hint="End Time (HH:MM:SS)" />
 
         <EditText
             android:id="@+id/etRoom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             android:hint="Room Number" />
 
         <Button
@@ -50,6 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Post Schedule"
+            android:textSize="16sp"
             android:layout_marginTop="20dp"
             android:backgroundTint="#4CAF50"
             android:textColor="#FFFFFF" />

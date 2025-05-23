@@ -17,8 +17,8 @@
         <!-- Header -->
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="#FFEB00">
+            android:layout_height="wrap_content"
+            android:background="#FFC107">
 
             <ImageView
                 android:id="@+id/backArrow"
@@ -41,13 +41,22 @@
         </RelativeLayout>
 
         <!-- Profile Image -->
-        <ImageView
-            android:id="@+id/profileImage"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/person_ic"
-            android:scaleType="centerCrop"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            app:cardCornerRadius="80dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/person_ic"
+                android:scaleType="fitCenter"/>
+
+        </androidx.cardview.widget.CardView>
 
         <!-- Profile Info -->
         <TextView

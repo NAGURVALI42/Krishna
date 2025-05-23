@@ -3,7 +3,7 @@
     android:shape="rectangle">
 
     <!-- Set background color of the card -->
-    <solid android:color="#F5A9BC"/>
+    <solid android:color="@color/white"/>
 
     <!-- Add rounded corners -->
     <corners android:radius="16dp"/>
@@ -16,5 +16,5 @@
         android:bottom="5dp"/>
 
     <!-- Optional: Add a border (stroke) -->
-    <stroke android:width="2dp" android:color="#D68DB0"/>
+    <stroke android:width="2dp" android:color="@color/black"/>
 </shape>

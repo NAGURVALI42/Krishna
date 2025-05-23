@@ -15,12 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date (YYYY-MM-DD)"
+            android:textSize="16sp"
             android:inputType="date" />
 
         <EditText
             android:id="@+id/editTextDueDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             android:hint="Due Date (YYYY-MM-DD)"
             android:inputType="date"
             android:layout_marginTop="10dp"/>
@@ -29,6 +31,7 @@
             android:id="@+id/editTextUploaderId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             android:hint="Uploader ID"
             android:inputType="number"
             android:layout_marginTop="10dp"/>
@@ -37,6 +40,7 @@
             android:id="@+id/editTextDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             android:hint="Description"
             android:inputType="text"
             android:layout_marginTop="10dp"/>
@@ -46,6 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Select Document"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"/>
 
         <TextView
@@ -53,6 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No file selected"
+            android:textSize="16sp"
             android:layout_marginTop="5dp"/>
 
         <Button

@@ -17,8 +17,10 @@
         android:paddingTop="50dp">
 
         <ImageView
-            android:layout_width="145dp"
-            android:layout_height="94dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
             android:layout_gravity="center"
             android:contentDescription="Logo"
             android:src="@drawable/intro" />
@@ -28,8 +30,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Login"
+            android:padding="10dp"
             android:textColor="@android:color/white"
-            android:textSize="48sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -80,9 +83,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
+                android:inputType="text"
                 android:hint="Username"
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
 
         <!-- Password Field -->
@@ -121,6 +125,7 @@
             android:layout_marginTop="30dp"
             android:padding="10dp"
             android:text="Login"
+            android:backgroundTint="@color/blue"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
@@ -140,7 +145,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#0312c9"
             android:layout_gravity="center_horizontal"

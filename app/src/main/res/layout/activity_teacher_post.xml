@@ -12,14 +12,22 @@
         <EditText
             android:id="@+id/etNoticeDate"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:hint="Notice Date (YYYY-MM-DD)"
             android:inputType="date"/>
 
         <EditText
             android:id="@+id/etDueDate"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:hint="Due Date (YYYY-MM-DD)"
             android:inputType="date"
             android:layout_marginTop="8dp"/>
@@ -27,7 +35,11 @@
         <EditText
             android:id="@+id/etDescription"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:padding="15dp"
+            android:gravity="start"
             android:hint="Notice Description"
             android:inputType="textMultiLine"
             android:minLines="3"
@@ -36,7 +48,11 @@
         <EditText
             android:id="@+id/etLinkUrl"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:hint="Link URL (optional)"
             android:inputType="textUri"
             android:layout_marginTop="8dp"/>

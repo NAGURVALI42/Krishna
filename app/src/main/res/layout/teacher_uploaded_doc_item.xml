@@ -19,6 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="XI- Subject"
+            android:padding="10dp"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#000"/>
@@ -28,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Document Name.Docs"
+            android:padding="10dp"
             android:textSize="16sp"
             android:textColor="#000"/>
     </LinearLayout>
@@ -37,5 +39,6 @@
         android:id="@+id/docIcon"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
         android:src="@drawable/book_icon"/>
 </LinearLayout>

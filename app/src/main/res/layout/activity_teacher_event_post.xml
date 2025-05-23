@@ -12,14 +12,22 @@
         <EditText
             android:id="@+id/etNoticeDate"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:hint="Event Date (YYYY-MM-DD)"
             android:inputType="date"/>
 
         <EditText
             android:id="@+id/etDueDate"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
             android:hint="Due Date (YYYY-MM-DD)"
             android:inputType="date"
             android:layout_marginTop="8dp"/>
@@ -27,10 +35,16 @@
         <EditText
             android:id="@+id/etDescription"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
+            android:background="@color/light_white"
+            android:textSize="16sp"
+            android:textAlignment="viewStart"
             android:hint="Event Description"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="start"
+            android:padding="10dp"
             android:inputType="textMultiLine"
-            android:minLines="3"
             android:layout_marginTop="8dp"/>
         <Button
             android:id="@+id/btnSelectImage"
@@ -52,6 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Add Notice"
+            android:textSize="16sp"
             android:layout_marginTop="16dp"/>
 
     </LinearLayout>
